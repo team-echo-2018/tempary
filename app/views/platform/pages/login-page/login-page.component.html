@@ -1,0 +1,28 @@
+<div class="container mt-5 pt-5">
+  <div class="col-lg-5 mx-auto page">
+
+    <div class="row mb-2 py-3 title">
+      <p class="h1 w-100 text-center text-light">
+        User Login
+      </p>
+    </div>
+
+    <div class="row">
+      <input type="text" [(ngModel)]="u_name" u_name="ngModel" class="form-control w-75 mx-auto my-4" placeholder="User Name">
+    </div>
+
+    <div class="row">
+      <input class="form-control w-75 mx-auto mb-4" [(ngModel)]="pwd" pwd="ngModel" type="password" placeholder="Password">
+    </div>
+
+    <div class="row">
+      <button type="button" class="btn btn-success w-75 mx-auto mb-4" (click)="login()"> LOGIN </button>
+    </div>
+
+    <div class="row">
+      <p class="w-100 mb-4 text-center">
+        Forgot the <a href="#">password</a> or a <a routerLink="/sign-up">new user</a> ?
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.box {
+    background-color: rgba(206, 206, 206, 0.37);
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #8f8f8f;
+}
+
+.title {
+    background-color: rgba(135, 148, 185, 0.616);
+}
+
+.title:hover {
+    background-color: rgb(135, 148, 185);
+}
